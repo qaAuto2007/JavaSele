@@ -54,7 +54,7 @@ public class FirstClass {
 		short noOfDaysInYear = 365;
 		
 		//int is a primitive datatype.
-		//can store only whole numbers ranging from 
+		//can store only whole numbers ranging from -2,147,000,000 to 2,147,000,000
 		int usaCovidCases = 9999999;
 		
 		//Long is a primitive datatype, L is a indicator for long
@@ -63,6 +63,9 @@ public class FirstClass {
 		System.out.println(worldPopulation);
 		
 		System.out.println("First Java Project");
+		int amount = 100;
+		int discount = 10;
+		System.out.println("Amount is "+amount +" discount is "+discount);
 
 		int a = 10;
 		int b = 20;
