@@ -3,9 +3,64 @@ package NewPack;
 public class FirstClass {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//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 (Password for gitpush.)
-		// 
+		/** TODO Auto-generated method stub
+		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 (Password for gitpush.)
+		
+		*Numbers (whole/decimal)
+		*        whole 
+		*        	Byte, short, int, long
+		*        Decimal
+		*        	float, double
+		*
+		*alphabets/characters/letters/words/sentences
+		*		single letter
+		*			char
+		*		multi-letters
+		*			String
+		*
+		*yes/no (true/false)
+		*		boolean
+		*
+		*
+		*how many datatypes we have in java?
+		*In Java, there are two types of datatypes.
+		*
+		*	1. Primitive
+		*		byte, short, int, long, float, double, char, boolean
+		*
+		*	2. Non-primitive
+		*		String, Array, Class, Interface, user define type
+		*
+		*To store any data, we need variable.
+		*
+		*Syntax to create variable:
+		*
+		*datatype variableName = value;
+		* 
+		*eg: write code to create a byte type variable of any name.
+		*
+		*	byte testVariable = 10;
+		*
+		*
+		*
+		*/ 
+		
+		//byte is a primitive datatype.
+		//can store only whole numbers ranging from -128 to 127
+		byte age = 20;
+		
+		//short is a primitive datatype.
+		//can store only whole numbers ranging from -32768 to 32767
+		short noOfDaysInYear = 365;
+		
+		//int is a primitive datatype.
+		//can store only whole numbers ranging from 
+		int usaCovidCases = 9999999;
+		
+		//Long is a primitive datatype, L is a indicator for long
+		//can store only whole numbers ranging from -9,000,000,000,000,000,000 to 9,000,000,000,000,000,000
+		long worldPopulation=7500000000L;
+		System.out.println(worldPopulation);
 		
 		System.out.println("First Java Project");
 
