@@ -162,8 +162,29 @@ public class Class3 {
 	  boolean lRes2=(lVar11<=lVar13 || (lVar12==(lVar14-lVar11-lVar11)));
 	  System.out.println(lRes2);
 	  
-	  boolean lRes3=!((lVar11<=lVar13 || (lVar12==(lVar14-lVar11-lVar11))));
-	  System.out.println(lRes3);
+	  double fTemp=68;
+	  // cT=(fT-32)*(5/9) formula
+	  double cTemp=(fTemp-32)*(5.0/9); //convert F to C
+	  System.out.println(fTemp+" in fahrenheit = "+cTemp+" degree In celcius");
+	  
+	  //find the given number is even
+	  int num7=11;
+	  if(num7%2==0){
+		  System.out.println(num7+" is an Even number");
+	  }else{
+		  System.out.println(num7+" is an Odd number");
+	  }
+	  
+	  num7=13;
+	  boolean isEven=false;
+	  int remainder=num7%2;
+	  isEven=remainder==0;
+	  System.out.println("Is "+num7+" is even: "+isEven);
+	  
+	  
+		  
+	  
+	  
 		
 
 	}
