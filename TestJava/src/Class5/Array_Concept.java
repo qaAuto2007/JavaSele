@@ -1,5 +1,7 @@
 package Class5;
 
+import java.util.Arrays;
+
 public class Array_Concept {
 
 	public static void main(String[] args) {
@@ -29,6 +31,25 @@ public class Array_Concept {
 		
 		myBills[0]=100.09; //storing value in myBills-index 0
 		myBills[4]=4.4;
+		myBills[1]=41.1;
+		myBills[2]=4.2;
+		myBills[3]=3.4;
+		System.out.println(Arrays.toString(myBills));
+		System.out.println(myBills[4]);
+		
+		//store the value at index-2 in new variable (foodBill)
+		double foodBill=myBills[2];//
+		
+		//change the value at index-4;
+		//new value should be total of index-0,1,2,3
+		myBills[4]=myBills[0]+myBills[1]+myBills[2]+myBills[3];
+		System.out.println(myBills[4]);
+		
+		//find the length of a array
+		//length - is a variable in array not a method.
+		
+		int lengthOfArray=myBills.length;
+		System.out.println(lengthOfArray);
 		
 	}
 
